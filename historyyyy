@@ -1,0 +1,16 @@
+  188  git branch -a
+  189  git checkout studia
+  190  touch plik1
+  191  add .
+  192  commit -m "studiowanie"
+  193  git push origin studia
+  194  git status
+  195  nano plik1
+  196  git add plik1
+  197  git commit -m "dfff"
+  198  git push origin studia
+  199  git checkout main
+  200  git merge studia
+  201  git log --oneline -3
+  202  git branch -m historia
+  203  git history
